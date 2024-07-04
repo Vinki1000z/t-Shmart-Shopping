@@ -1,0 +1,56 @@
+const express = require('express');
+const router = express.Router();
+const authController = require('./controllers/authController');
+const productController = require('./controllers/productController');
+const cartController = require('./controllers/cartController');
+const orderController = require('./controllers/orderController');
+const paymentController = require('./controllers/paymentController');
+const adminController = require('./controllers/adminController');
+
+// User Authentication and Profile
+router.post('/register', authController.register);
+router.post('/login', authController.login);
+router.post('/logout', authController.logout);
+
+// Product Management
+router.get('/products', productController.getAllProducts);
+router.get('/products/:id', productController.getProductById);
+
+//  for Future
+// router.post('/products', productController.addProduct); // Admin only
+// router.put('/products/:id', productController.updateProduct); // Admin only
+// router.delete('/products/:id', productController.deleteProduct); // Admin only
+
+// Cart Management
+router.get('/cart', cartController.getCart);
+router.post('/cart', cartController.addToCart);
+router.put('/cart/:itemId', cartController.updateCartItem);
+router.delete('/cart/:itemId', cartController.removeCartItem);
+
+// Order Management
+router.post('/orders', orderController.createOrder);
+router.get('/orders', orderController.getOrders);
+router.get('/orders/:id', orderController.getOrderById);
+
+// for future
+// router.put('/orders/:id', orderController.updateOrder); // Admin only
+// router.delete('/orders/:id', orderController.cancelOrder); // Admin only
+
+// Payment Management
+router.post('/payments', paymentController.processPayment);
+router.get('/payments/:orderId', paymentController.getPaymentStatus);
+
+// Admin Management
+// router.get('/users', adminController.getAllUsers); // Admin only
+// router.get('/users/:id', adminController.getUserById); // Admin only
+// router.put('/users/:id', adminController.updateUser); // Admin only
+// router.delete('/users/:id', adminController.deleteUser); // Admin only
+
+// // Miscellaneous
+// router.get('/categories', productController.getAllCategories);
+// router.get('/categories/:id', productController.getCategoryById);
+// router.post('/categories', productController.addCategory); // Admin only
+// router.put('/categories/:id', productController.updateCategory); // Admin only
+// router.delete('/categories/:id', productController.deleteCategory); // Admin only
+
+module.exports = router;

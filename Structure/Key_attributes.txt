@@ -1,0 +1,73 @@
+    {
+      "product_id": "5987423424515727351",
+      "product_title": "All Detergent, with Stainlifters, Free Clear - 88 fl oz",
+      "product_description": "When it comes to laundry care for sensitive skin, all Liquid Laundry Detergent is the obvious choice. This all hypoallergenic laundry detergent is the #1 recommended detergent brand by dermatologists, allergists and pediatricians for sensitive skin. 100% free of perfumes and dyes, all free clear is hypoallergenic and gentle on sensitive skin. Use with all free and clear fabric softener and dryer sheets for clean and soft clothes with static cling reduction in the dryer. This unscented, fragrance free detergent is safe to use in any washing machine including high efficiency (HE) and at any water temperature. All free and clear is also available in convenient mighty pacs. This package includes one 184.5-fluid-ounce bottle of all free clear liquid laundry detergent, enough for 123 loads. Medium Load, fill slightly below halfway. Large load, fill to top of cap. Pre-Treating: Rub a small amount directly onto the stain before washing. Check an inseam for colorfastness.",
+      "product_photos": [
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRx6woa8Q-n3cNTQE5MqlWI-N58l50xw9UM1VtV2gkB3oEHYNcG_MOoXySJ7Bl0o3o8zBLWezTjZ2NAuhYTNt-CPjkaMgRXww&usqp=CAE",
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSLPdCdHhBTIj3xQK8CVybd0k4gI4hXwyODiwqUvNQa0gdDt7ujdgn2XccLGN1pQSDZVbt58NcMPml1Lj_qGqD4S37nhXoy&usqp=CAE",
+        "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTYVsgu5DwB_duYeQj_NPPFreB91A7lv_Qie2R0e0eQcYF_y7ucQLq_sEJTjGIyKpzDjamVP6WTtCGwVE9lXSUP8NLgCVxsrg&usqp=CAE",
+        "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRfF7hgDG7EHU_vv0nZj_ftKWj7ASZTFPjQtnCeMxyTbMgcaEVmivRauqrqCmaxM2hZaCBVMTZgOA0DCeUTXNeCkhvzpF83&usqp=CAE",
+        "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQtlnxMmetoddf62VlUqYr_9CO9vHQndd3UJqF_U7Bow6UXsKayWRdREBuJdUrIT28LmblyfxrP2EKRq7-fy24CP3sXzAX4&usqp=CAE",
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSUBm99hcbfVaJFsp8hR-sZWIhRLTzYBlC7BnmndrUBGR-Wbgu0fI52ZE3n4hJ3SEFd6Lkc2NAqmyLqRpTmLyodaVqk7ccO&usqp=CAE",
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTggCfrLiH5wQgDsX1dpDxDJ7hkc2_d9MCuw4qYkWh5eKorpPHnlv0YWoJsHt5YbJmtl0Vp-wvS5Uejn2uA7nEJs_AR0x9W&usqp=CAE",
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRVnCAaQM0sb2nHIIe8wm_U4MO6BG7FBgZyJ0LxGhbYa3lpm9G1EulXAmcZBvgIZJsOMAaaDw1KT48rp-OPJxcbAwtTkXgi&usqp=CAE",
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQpQown3IXQHfhF1s6N6Z-jFxzMgtxTK7teQ_ek9ry6pjMnTbV4yjaVWoGs69S0GDBe3xr-dEMc4AoFt9SUGeqAzRVHCEYR&usqp=CAE",
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQPYVhDEmIsc4swj9oUSMqklTmAKvE7QUrfFRehjr3GOt4Hgh7dkDtQMqvS8EiHb86T8r-XSh5k9r7JH8fCFFtA-Kj707ET&usqp=CAE",
+        "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR4-7Gqktir_I-5YSVhmO2epHvGOD_zH4ZWmjXUPVJRfq6YAaSNxslzxKj8yFD6Og3FNx7nzG3kessxXPe4EQg0sNLMTknD&usqp=CAE",
+        "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTw-54StIh9kJadvSVt1j28VEuK6ZjopiGoEYYRr6-CzreLN8tUfb-gT-ObQ5G4eybLae3Xvif9hdozlwV1JfbGciNE6r6x&usqp=CAE",
+        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRpKp7T-gYk3oxfw8hTEScy5QWBG2JReOSzvw0nzjcxxUE7rqSJvJkN7j8Vb6h_wOBNe8Ok7F0NzrhX3uP4zOM5gl0AjaiJ_w&usqp=CAE"
+      ],
+      "product_attributes": {
+        "Features": "High Efficiency, Unscented, Hypoallergenic",
+        "Type": "Liquid"
+      },
+      "product_rating": 4.7,
+      "product_page_url": "https://google.com/shopping/product/5987423424515727351?gl=us&hl=en&prds=pid%3A4772126890121221039",
+      "product_offers_page_url": "https://google.com/shopping/product/5987423424515727351/offers?gl=us&hl=en&prds=pid%3A4772126890121221039",
+      "product_specs_page_url": "https://google.com/shopping/product/5987423424515727351/specs?gl=us&hl=en&prds=pid%3A4772126890121221039",
+      "product_reviews_page_url": "https://google.com/shopping/product/5987423424515727351/reviews?gl=us&hl=en&prds=pid%3A4772126890121221039",
+      "product_num_reviews": 9690,
+      "product_num_offers": "25+",
+      "typical_price_range": [
+        "$8",
+        "$17"
+      ],
+      "offer": {
+        "store_name": "Walmart",
+        "store_rating": null,
+        "offer_page_url": "https://www.walmart.com/ip/all-Liquid-Laundry-Detergent-Free-Clear-for-Sensitive-Skin-88-Fluid-Ounces-58-Loads/710208343?wmlspartner=wlpa&selectedSellerId=0",
+        "store_review_count": 0,
+        "store_reviews_page_url": null,
+        "price": "$11.97",
+        "shipping": "$6.99 delivery",
+        "tax": "+$1.14 est. tax",
+        "on_sale": false,
+        "original_price": null,
+        "product_condition": "NEW",
+        "top_quality_store": true
+      }
+    }
+
+   /* FOr the product finding */
+
+  //  to render 
+  
+   product_id (for rendering the products)
+
+  //  on the card
+  product_photos(only one photo)
+  product_title (on The card)
+  price (on the card)
+  product_rating (on the card)
+
+  // inside the card
+   product_title (on The card)
+   product_description (when the user click inside the card)
+   product_rating
+   typical_price_range
+   Dealer - store_name
+   price
+   shipping
+   Highlights-product_attributes
+
+  
