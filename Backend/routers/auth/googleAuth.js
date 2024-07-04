@@ -7,7 +7,7 @@ const User = require("../../models/users_schema"); // Adjust path as needed
 
 // Setup session middleware
 router.use(session({
-    secret: "YOUR_SECRET_KEY",
+    secret: "YOUR_SECRET_KEY", 
     resave: false,
     saveUninitialized: true
 }));
@@ -16,7 +16,7 @@ router.use(session({
 router.use(passport.initialize());
 router.use(passport.session());
 
-
+//  be carefull here
 const clientid = "id"
 const clientsecret = "id"
 
@@ -79,11 +79,13 @@ router.get("/google", passport.authenticate("google", { scope: ["profile", "emai
 
 //  2. my way Here i am sending the user
 router.get("/google/callback", passport.authenticate("google", {
-    failureRedirect: "/login" // Redirect to login page on failure (if necessary)
+    //  Need to do it later
+    failureRedirect: "http://localhost:3001/login" // Redirect to login page on failure (if necessary)  
 }), (req, res) => {
     // Handle successful authentication without redirection
     // Example: Respond with JSON data or other response
-    res.status(200).json({ message: 'Authentication successful', user: req.user });
+    res.status(200).json({ msg: 'Authentication successful', user: req.user ,success:true});
 });
+
 
 module.exports = router;
