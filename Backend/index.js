@@ -13,16 +13,19 @@ app.use(express.json());
 
 //  1 Authentication
 
-// 1.1 For SingUp
+// 1.1 SingUp
 app.use("/api/auth", require("./routers/auth/singUp.js"));
 
-//  1.2 For Google User Authentication
+//  1.2 Google User Authentication
 app.use("/api/auth",require("./routers/auth/googleAuth.js"))
 
-//  1.3 For Login
+//  1.3 Login
 app.use("/api/auth",require("./routers/auth/logIn.js"))
 
 //  1.4 For logout
+app.use("/api/auth",require("./routers/auth/userVerification.js"))
+
+//  1.5 For logout
 // app.use("/api/auth",require("./routers/auth/logOut.js"))
 
 // 2. For cart

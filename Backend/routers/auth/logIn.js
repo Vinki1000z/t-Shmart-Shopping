@@ -14,6 +14,9 @@ const bcrypt = require("bcrypt");
 var jwt = require("jsonwebtoken");
 const jwt_word = "thisisjwttoken";
 
+//  importing the middleware
+const userVerification = require("../../middleware/userVerification.js");
+
 let success = false;
 
 // 1. Creating the User (/api/auth/logIn)
@@ -72,5 +75,6 @@ router.post(
     }
   }
 );
+
 
 module.exports = router;

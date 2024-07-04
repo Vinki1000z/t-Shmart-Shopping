@@ -6,7 +6,6 @@ const auth = require("../../models/users_schema");
 
 // ecpress-validation
 const { body, validationResult } = require("express-validator");
-const { error } = require("ajv/dist/vocabularies/applicator/dependencies.js");
 
 //  bycrypt
 const bcrypt = require("bcrypt");
@@ -14,6 +13,7 @@ const saltRounds = 10;
 
 // Jwt Token Work
 var jwt = require("jsonwebtoken");
+//  add this in the env file
 const jwt_word = "thisisjwttoken";
 
 let success = false;
