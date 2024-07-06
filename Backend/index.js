@@ -41,7 +41,7 @@ app.use("/api/cart", require("./routers/cart/showCart.js"));
 app.use("/api/cart", require("./routers/cart/deleteItemCart.js"));
 
 // 3. For order
-// app.use("/api/order",require("./routers/order/order.js"))
+app.use("/api/order",require("./routers/order/makeOrder.js"))
 
 
 

@@ -12,7 +12,7 @@ const cartItemSchema = new Schema({
 const cartSchema = new Schema({
     userId: { type: Schema.Types.ObjectId, ref: 'User', required: true },
     items: [cartItemSchema],
-    status: { type: String, default: 'active' },
+    status: { type: String, default: 'active' }, // "empty" After evrey order
     date: { type: Date, default: Date.now },
     dateUpdated: { type: Date, default: Date.now },
     // sessionId: { type: String }, 

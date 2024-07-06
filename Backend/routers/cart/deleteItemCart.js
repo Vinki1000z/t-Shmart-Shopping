@@ -29,6 +29,7 @@ router.post("/deleteItemCart", userVerification, async (req, res) => {
     else{
       cart.items[existingItemIndex].quantity=currentQuantity-quantity;
       }
+      cart.dateUpdated = Date.now();
       await cart.save();
       success = true;
       return res.json({ msg: "Item Deleted", success });
