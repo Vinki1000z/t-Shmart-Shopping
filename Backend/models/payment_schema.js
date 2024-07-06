@@ -12,7 +12,9 @@ const paymentSchema = new Schema({
     transactionId: { type: String },
     paymentDate: { type: Date },
     date: { type: Date, default: Date.now },
-    // updatedAt: { type: Date, default: Date.now },
+    updatedAt: { type: Date, default: Date.now },
+    createdBy: { type: Schema.Types.ObjectId, ref: 'User', required: true },
+    
 });
 
 const Payment = mongoose.model('Payment', paymentSchema);

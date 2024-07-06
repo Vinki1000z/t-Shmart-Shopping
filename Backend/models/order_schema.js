@@ -18,6 +18,8 @@ const orderSchema = new Schema({
     // status: { type: String, enum: ['Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled'], default: 'Pending' },
     // paymentStatus: { type: String, enum: ['Pending', 'Paid', 'Failed'], default: 'Pending' },
     date: { type: Date, default: Date.now },
+    paymentId: { type: Schema.Types.ObjectId, ref: 'Payment' } ,
+    userId: { type: String, required: true }
     // updatedAt: { type: Date, default: Date.now },
 });
 

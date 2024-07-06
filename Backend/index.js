@@ -40,8 +40,21 @@ app.use("/api/cart", require("./routers/cart/showCart.js"));
 // 2.3 deletitemCart
 app.use("/api/cart", require("./routers/cart/deleteItemCart.js"));
 
-// 3. For order
-app.use("/api/order",require("./routers/order/makeOrder.js"))
+
+// 3.  order And payment
+// payment is managed by the admnistrator
+
+// 3.1 show the order
+app.use("/api/order",require("./routers/orderController/ordersWithPayments.js"))
+
+// 3.2 make the order and payment
+app.use("/api/order",require("./routers/orderController/makeOrder.js"))
+
+// 3.3 delet the order and payment if the delivery status is pending 
+app.use("/api/order",require("./routers/orderController/deleteOrder.js"))
+
+// 3.4 edit the address of the order if the delivery status is pending
+app.use("/api/order",require("./routers/orderController/editOrder.js"))
 
 
 
