@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+    const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // Define the CartItem schema
@@ -12,9 +12,9 @@ const cartItemSchema = new Schema({
 const cartSchema = new Schema({
     userId: { type: Schema.Types.ObjectId, ref: 'User', required: true },
     items: [cartItemSchema],
-    // status: { type: String, default: 'active' },
+    status: { type: String, default: 'active' },
     date: { type: Date, default: Date.now },
-    // dateUpdated: { type: Date, default: Date.now },
+    dateUpdated: { type: Date, default: Date.now },
     // sessionId: { type: String }, 
 });
 
